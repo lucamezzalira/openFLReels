@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="SlotReels" package="com.example.slotreels" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="SlotReels" />
+	
+	<source path="Source" />
+	
+	<haxelib name="actuate" />
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" inclue="*" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
